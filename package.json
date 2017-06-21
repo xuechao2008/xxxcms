@@ -1,0 +1,22 @@
+{
+  "name": "xxxcms",
+  "version": "1.0.0",
+  "description": "xxxcms 手机PC 管理系统 webpack+vuejs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xuechao2008/xxxcms.git"
+  },
+  "keywords": [
+    "xxxcms"
+  ],
+  "author": "08",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/xuechao2008/xxxcms/issues"
+  },
+  "homepage": "https://github.com/xuechao2008/xxxcms#readme"
+}
