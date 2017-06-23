@@ -9,7 +9,6 @@ module.exports={
     * 'webpack/hot/dev-server'*/
     entry:{
         index:'./index.js',
-        webpack_dev_server:'webpack/hot/dev-server'
     },
     output:{
         filename:'bundle.js'
