@@ -8,7 +8,7 @@
 /* A bit of demo styles */
 .swiper-container {
     height: 20%;
-    margin-top: 44px;
+
 }
 .swiper-slide {
     background:#fff;
@@ -28,3 +28,39 @@
     overflow: hidden;
     height: 100%;
 }
+div.small_menu{
+    margin-top: 0;
+}
+ul.list_small_menu{
+    overflow: hidden;
+    padding-left: 0;
+}
+ul.list_small_menu li{
+    display: inline-block;
+    margin-right: 6%;
+}
+ul.list_small_menu li .icon{
+    display: block;
+    width: 60px;
+    height: 60px;
+    margin: 0px auto;
+}
+
+ul.list_small_menu li .icon.icon_small_menu1{
+    background: url("../img/small_menu1.png") center no-repeat;
+}
+
+ul.list_small_menu li .icon.icon_small_menu2{
+    background: url("../img/small_menu1.png") center no-repeat;
+}
+
+ul.list_small_menu li .icon.icon_small_menu3{
+    background: url("../img/small_menu1.png") center no-repeat;
+}
+
+ul.list_small_menu li .icon.icon_small_menu4{
+    background: url("../img/small_menu1.png") center no-repeat;
+}
+
+
+
