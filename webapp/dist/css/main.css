@@ -37,7 +37,11 @@ ul.list_small_menu{
 }
 ul.list_small_menu li{
     display: inline-block;
-    margin-right: 6%;
+    /*margin-right: 6%;*/
+    width: 24%;
+}
+ul.list_small_menu li a{
+    display: block;
 }
 ul.list_small_menu li .icon{
     display: block;
@@ -45,22 +49,111 @@ ul.list_small_menu li .icon{
     height: 60px;
     margin: 0px auto;
 }
+ul.list_small_menu li .laber_name{
+    display: block;
+    text-align: center;
+    margin-top: 5%;
+    color: #6d6d72;
+}
 
 ul.list_small_menu li .icon.icon_small_menu1{
     background: url("../img/small_menu1.png") center no-repeat;
 }
 
 ul.list_small_menu li .icon.icon_small_menu2{
-    background: url("../img/small_menu1.png") center no-repeat;
+    background: url("../img/small_menu2.png") center no-repeat;
 }
 
 ul.list_small_menu li .icon.icon_small_menu3{
-    background: url("../img/small_menu1.png") center no-repeat;
+    background: url("../img/small_menu3.png") center no-repeat;
 }
 
 ul.list_small_menu li .icon.icon_small_menu4{
-    background: url("../img/small_menu1.png") center no-repeat;
+    background: url("../img/small_menu4.png") center no-repeat;
+}
+.content-block-title h5{
+    text-align: center;
+    margin-top: 0;
+    font-size: 1.2rem;
+    margin-bottom: 0.5rem;
+}
+.content-block-title p{
+    text-align: center;
+    margin-bottom: 0;
+}
+.list-block ul {
+    overflow: hidden;
+    padding-top: 2rem;
+}
+.list-block li{
+    width: 50%;
+    float: left;
+}
+.list-block li span img{
+    display: block;
+    width: 50%;
+    margin: 0px auto;
+}
+.list-block li p{
+    font-size: 0.8rem;
+    text-align: center;
+    color: #6d6d72;
+}
+
+.list-block.w100 li{
+    width: 100%;
+
+}
+.list-block.w100 ul{
+    padding-top: 0;
+}
+.item-inner .img{
+    display: block;
+    float: left;
+    width: 30%;
+}
+.item-inner  .text{
+    width: 65%;
+    float: left;
+}
+.item-inner .text h5{
+    margin: 0.5rem auto;
+}
+.list-block.w100 li span img{
+    width: 100%;
+}
+/*服务器托管*/
+.list_tuoguan_page{}
+.list_tuoguan_page ul{
+    padding-left: 0;
+}
+
+.list_tuoguan_page ul li{
+    list-style: none;
+    margin-bottom: 1.5rem;
 }
 
 
+.list_tuoguan_page ul li h4{
+    font-size: 1.2rem;
+    margin: 0.5rem auto;
+    display: table;
+    width: 100%;
+}
 
+
+.list_tuoguan_page ul li h4 span{
+    display: block;
+    float: right;
+    display: table-cell;
+    vertical-align: bottom;
+}
+.list_tuoguan_page ul li h4 span em{
+    color:red;
+    font-style: normal;
+}
+.list_tuoguan_page ul li P{
+    margin-top: 0.5rem;
+    border-top:1px solid #ddd;
+    padding-top: 0.8rem;
+}
