@@ -157,3 +157,17 @@ ul.list_small_menu li .icon.icon_small_menu4{
     border-top:1px solid #ddd;
     padding-top: 0.8rem;
 }
+/*租用*/
+.zuyong_server .left .product{
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    margin-bottom: 1rem;
+}
+.zuyong_server .left .product p .z_btn{
+    padding: 0.4rem 0.8rem;
+    background: #a21c2c;
+    border-radius: 0.5rem;
+    text-align: center;
+    line-height: 0.8rem;
+    color:#fff;
+    font-size: 0.8rem;
+}
